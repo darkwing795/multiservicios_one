@@ -1,0 +1,113 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f7fb;
+  color: #222;
+}
+
+header {
+  background: #414762;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #414762;
+  margin-top: 40px;
+}
+
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.mision-vision {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mision-vision div {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-left: 5px solid #414762;
+  border-radius: 10px;
+}
+
+.valores {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border-left: 5px solid #414762;
+}
+
+blockquote {
+  font-style: italic;
+  color: #555;
+}
+
+.servicio {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border-left: 5px solid #414762;
+}
+
+.img-area {
+  background: #e9e9f0;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background: #414762;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2f3348;
+}
+
+footer {
+  background: #414762;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
